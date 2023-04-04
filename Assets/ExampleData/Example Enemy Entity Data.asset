@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8d3fd05f5cbb64e88b156783abb35a, type: 3}
+  m_Name: Example Enemy Entity Data
+  m_EditorClassIdentifier: 
+  <EntityDefaultData>k__BackingField:
+    <Components>k__BackingField:
+    - rid: 5439386720141317
+    - rid: 5439386720141318
+    - rid: 5439386720141319
+    <Sprite>k__BackingField: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 5439386720141317
+      type: {class: AbilitiesHandler, ns: Entities.Abilities, asm: Entities}
+      data:
+        startingAbilities:
+        - rid: 5439386720141320
+        - rid: 5439386720141321
+    - rid: 5439386720141318
+      type: {class: DamageableComponent, ns: Examples.Components, asm: Examples}
+      data:
+        startVitality: 10
+    - rid: 5439386720141319
+      type: {class: DefaultMoveStatsComponent, ns: Entities.Abilities.DefaultMove, asm: Examples}
+      data:
+        speed: 5
+    - rid: 5439386720141320
+      type: {class: AttackAbility, ns: Entities.Abilities, asm: Examples}
+    - rid: 5439386720141321
+      type: {class: DefaultMoveAbility, ns: Entities.Abilities.DefaultMove, asm: Examples}

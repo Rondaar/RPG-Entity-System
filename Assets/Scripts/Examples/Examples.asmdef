@@ -1,0 +1,16 @@
+{
+    "name": "Examples",
+    "rootNamespace": "Examples",
+    "references": [
+        "GUID:f7a027fcd5da8e0458be73b6fe03bca9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
